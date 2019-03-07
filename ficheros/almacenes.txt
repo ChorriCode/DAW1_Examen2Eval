@@ -1,0 +1,4 @@
+11#Almacén Central
+22#Almacén Tienda1
+33#Almacén Tienda2
+44#Almacén Aeropuerto

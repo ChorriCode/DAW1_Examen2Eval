@@ -1,0 +1,22 @@
+EXAMEN 2º EVALUACION PRIMERO DAW.  FICTICIO (creado por Javier Hdez.)
+Dados los ficheros de datos:
+1) productos.txt  (id, nombre, stock, precio, idCategoria, idAlmacen)
+2) categorias.txt (id, nombre)
+3) almacenes.txt (id, nombre)
+--------------------------------------------------------------
+a) Crear la clase producto solamente  (0.5 puntos)
+b) métodos para leer los tres ficheros de texto y almacenarlos (return) en los siguientes tipos: (1.5 puntos)
+	 productos.txt -> ArrayList<Producto>
+	 categorias.txt-> ArrayList<String>
+	 almacenes.txt-> HashMap<String, String>
+c) método para grabar en un fichero de tipo objeto todos los productos individualmente (1.0 puntos)
+d) método para leer el archivo objeto de productos.obj y lo almacene en un HashMap<Integer, Producto> (return) (1.0 puntos)
+e) En la vista hay que hacer varios métodos: (las columnas categoría y almacén, cuando aparezcan en los listados no deben mostrar su identificador, sino su nombre)
+	1.- mostrar listado de productos sin filtros (ID    NOMBRE PRODUCTO   PRECIO   STOCK   CATEGORIA  ALMACEN) (1.0 puntos)
+	2.- mostrar listado de productos filtrado por una categoría concreta (0.75 puntos)
+	3.- mostrar listado de productos ordenados por categorías (0.75 puntos)
+	4.- mostrar listado de productos ordenados por almacenes (0.75 puntos)
+	5.- mostrar los productos que tiene un almacén concreto (0.5 puntos)
+	6.- mostrar el stock total de la empresa (0.75 puntos) 
+	7.- mostrar el stock de productos que tiene cada almacén (0.75 puntos)
+	8.- mostrar el stock de productos que tiene cada categoría (0.75 puntos)
